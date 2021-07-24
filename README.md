@@ -1,2 +1,2 @@
 # AdmiHo
-**Mi repositorio para el control de acceso a las instalaciones de propiedad horizontal**
+**Repositorio para el control de acceso a las instalaciones de propiedad horizontal**

@@ -6,5 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/Register')
+def register():
+    return render_template('Register.html')
+
 if __name__ == "__app__":
     app.run(debbug=True)

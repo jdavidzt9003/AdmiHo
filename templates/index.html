@@ -12,11 +12,13 @@
         <h1>AdminHo</h1>
     </header>
     <main>
-        <form action="/login" method = "POST">
-            <p>Tipo Documento<select name= "tDoc"></select></p>
-            <p>No. Documentos <input type = "integer" name = "documento" /></p>
-            <p>Nombre <input type = "text" name = "Nombre" /></p>
-            <p>Apellido <input type = "text" name = "Apellidos" /></p>
+        <form action="/form" method = "POST">
+            <p>Tipo Documento<select name= "tip_doc">
+                <option value="1">Registro Civil</option>
+            </select></p>
+            <p>No. Documento<input type = "integer" name = "num_doc" /></p>
+            <p>Nombre <input type = "text" name = "nombres" /></p>
+            <p>Apellido <input type = "text" name = "apellidos" /></p>
             <p>Celular <input type = "text" name = "celular" /></p>
             <p>E-mail <input type = "text" name = "correo" placeholder="E-mail" /></p>
             <p><input type = "submit" value = "Registrar" /></p>
